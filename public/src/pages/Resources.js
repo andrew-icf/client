@@ -16,10 +16,8 @@ class Resources extends React.Component {
         <Link to="resources">Resources</Link>
         <ResourceCard />
         <h1>popcorn</h1>
-        
       </div>
-
-       </MuiThemeProvider>
+      </MuiThemeProvider>
     );
   }
 }

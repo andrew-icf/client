@@ -1,6 +1,6 @@
 import React from 'react';
-import {Router, Route, IndexRoute, hashHistory} from 'react-router';
-import {render} from 'react-dom';
+import { Router, Route, IndexRoute, hashHistory } from 'react-router';
+import { render } from 'react-dom';
 import injectTapEventPlugin from 'react-tap-event-plugin';
 
 
@@ -21,7 +21,6 @@ render(
     <Route path="/" component={Layout}>
       <IndexRoute component={Index}></IndexRoute>
       <Route path="resources" component={Resources}></Route>
-      {/* <Route path="favorites" component={Favorites}></Route> */}
     </Route>
   </Router>,
   document.getElementById('app'));
